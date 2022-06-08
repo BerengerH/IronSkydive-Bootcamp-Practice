@@ -1,0 +1,280 @@
+
+/*-------------------------------------GENERAL SETTINGS AND TAG SELECTORS---------------------------------*/
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  line-height: 3.5em;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 75px 0;
+}
+
+.dark-background{
+    background-color: rgb(25, 33, 41);
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1{
+    font-size: 9em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2{
+    color: white;
+    font-size: 5em;
+    line-height: 4em;
+    text-align: center;
+    text-shadow: #020819 8px -20px 9px;
+    text-transform: uppercase;
+}
+
+h3{
+    font-size: 4.2em;
+    line-height: 1em;
+    text-align: center;
+}
+
+h4{
+    font-size: 1.5em;
+    letter-spacing: 0.4px;
+    line-height: 1em;
+    margin-bottom: 15px;
+}
+
+h5{
+    font-size: 1.2em;
+    line-height: 1em;
+    margin: 0 auto;
+}
+
+
+/*------------------------------------------------NAV SECTION---------------------------------------------*/
+.nav-bar{
+    background-color: rgb(25, 33, 41);
+    padding: 14px 0;
+}
+
+.nav-bar-ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 0 auto;
+    text-align: center;
+    width: 1200px;
+}
+
+.nav-bar a{
+    color: white;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+
+/*------------------------------------------------HEADER SECTION---------------------------------------------*/
+.header{
+    background-image: url("https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    padding-top: 50px;
+    position: relative;
+}
+
+.quote{
+    font-size: 2.5em;
+    position: absolute;
+    left: 10%;
+    bottom: 100px;
+}
+
+
+/*------------------------------------------------SECTION 1---------------------------------------------*/
+#general-information{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#general-information .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+}
+
+.link-btn{
+    background-color: rgb(67, 163, 230);
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2em;
+    letter-spacing: 0.5px;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.text{
+    font-size: 2em;
+    font-weight: 100;
+    margin:  20px 0;
+    text-align: center;
+}
+
+
+/*------------------------------------------------SECTION 2---------------------------------------------*/
+.service-box{
+    border: 2px solid #eee;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 10 px 0 #eee;
+    font-size: 1.7em;
+    margin: 50px 5% 0 5%;
+    padding: 20px;
+    text-align: center;
+    width: 40%;
+}
+
+.service-box img {
+    width: 125px;
+}
+
+#structure > div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+/*------------------------------------------------SECTION 3---------------------------------------------*/
+#team {
+    margin:  0 auto;
+    padding: 75px 0;
+}
+
+#team > div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#team > div > article{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#team hr{
+    margin: 20px auto 30px auto;
+    width: 40%;
+}
+
+#team img{
+    height: 180px;
+    width: 250px;
+}
+
+#team .member-name{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+#team p{
+    font-size: 1.5em;
+    margin: 10px auto;
+    text-align: center;
+    width: 30%;
+}
+
+#team .section-text{
+    font-size: 1.9em;
+    text-align: center;
+}
+
+
+/*------------------------------------------------SECTION 4---------------------------------------------*/
+.schedule-table{
+    font-size: 1.5em;
+    margin: 0 auto 40px auto;
+}
+
+.schedule-table th,
+td {
+    border-bottom: solid 1px black;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.slot-form-container{
+    font-size: 1.5em;
+    margin: 18px auto 0 auto;
+    text-align: center;
+    width: 40%;
+}
+
+.slot-form-container label{
+    line-height: 15px;
+    margin: 5px;
+}
+
+.slot-form-container input, select{
+    height: 20px;
+    outline: none;
+    width: 100%;
+}
+
+.slot-form-container input{
+    padding: 3px;
+}
+
+.submit-btn{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    margin-top: 15px;
+    padding: 9px;
+}
+
+/*------------------------------------------------FOOTER SECTION---------------------------------------------*/
+.address{
+    font-style: normal;
+    font-size: 0.8em;
+    margin: 30px;
+}
+
+.footer{
+    align-items: center;
+    display: flex;
+    font-size: 1.9em;
+    justify-content: space-between;
+    text-align: center;
+    padding:  40px 100px;
+    margin-bottom: 25px;
+}
+
+.footer a{
+    color: rgb(67, 163, 230);
+    text-decoration: none;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.map-frame{
+    height: 375px;
+    width: 60%;
+}
